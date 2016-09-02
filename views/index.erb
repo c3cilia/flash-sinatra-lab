@@ -1,0 +1,8 @@
+
+<h1> Sinatra Flash</h1>
+
+<form action="/time" method="POST">
+  <input type="submit" value="What Time Is It?" title="What time is it?"/>
+</form>
+<p>The time is <%= flash[:message]%></p>
+
